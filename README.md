@@ -19,3 +19,6 @@ Do so, feel free to contribute to it, open issues or just help in any way to get
 * Refactor JS Stuff (especially the "Additional Infos" checkboxes)
 * resize Background Image
 
+###Credits
+* [Lovely](https://livelovely.com/) for their UI/behaviour
+* lots of Dribbble shots with similar UI
