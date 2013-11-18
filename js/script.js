@@ -11,9 +11,6 @@ $('input:checkbox').change(function(){
     }
 });
 
-/*$('div.large-input').click(function() {
-    $(this).focus();
-}); */
 
 
 $("div.large-input").click(function(){ 
@@ -26,63 +23,5 @@ $("div.large-input").click(function(){
 
 });
 
-
-
-	
-
-
-function DropDown(el) {
-    this.dd = el;
-    this.initEvents();
-}
-DropDown.prototype = {
-    initEvents : function() {
-        var obj = this;
- 
-        obj.dd.on('click', function(event){
-            $(this).toggleClass('active');
-            event.stopPropagation();
-        }); 
-    }
-}
-
-/*
-
-$('input:checkbox').change(function(){
-    if($(this).is(":checked")) {
-        $('.vegan').addClass("checkedbg");
-    } else {
-        $('.vegan').removeClass("checkedbg");
-    }
-});
-
-*/
-
-
-/*var checkboxes = $('input[type=checkbox]');
-  $(checkboxes).on('change', function() {
-    if($(checkboxes).is(':checked')) {
-      $(".vegan").toggleClass("checkedbg");
-    }
-  }); */
-
-
-  /*
-
-	var checkboxes = $('input[type=checkbox]');
-  $(checkboxes).on('change', function() {
-    if($(checkboxes).is(':checked')) {
-      $(".vegan").toggleClass("checkedbg");
-    }
-  });
-
-
-  */
-
-	$(".large-input").click(function(){
-
-		//$('input[type=text]').focus();
-
-	});
 
 });
