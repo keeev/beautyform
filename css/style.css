@@ -1,0 +1,167 @@
+@import url(bootstrap.min.css);
+.clear {
+  clear: both; }
+
+.border-bottom {
+  border-bottom: 1px solid #dedede; }
+
+.border-top {
+  border-top: 1px solid #dedede; }
+
+.border-left {
+  border-left: 1px solid #dedede; }
+
+.border-right {
+  border-right: 1px solid #dedede; }
+
+.checkedbg {
+  -webkit-transition: 0.8s linear all;
+  -moz-transition: 0.8s linear all;
+  -ms-transition: 0.8s linear all;
+  -o-transition: 0.8s linear all;
+  transition: 0.8s linear all;
+  background-color: #2ecc71; }
+
+body {
+  background-image: url(../img/bg1.jpg); }
+
+.formwrapper {
+  background-color: #fff;
+  height: auto;
+  position: relative;
+  top: 200px;
+  border-radius: 5px;
+  width: 500px;
+  margin: 0 auto;
+  /*dropdown*/
+  /* Hover state */ }
+  .formwrapper .large-input {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 0 20px;
+    display: inline-block;
+    font-size: 90%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: none;*/
+    color: #444444;
+    -webkit-transition: 0.3s linear all;
+    -moz-transition: 0.3s linear all;
+    -ms-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all; }
+  .formwrapper .button-success {
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 12pt; }
+  .formwrapper .button-success:hover {
+    -webkit-transition: 0.3s linear all;
+    -moz-transition: 0.3s linear all;
+    -ms-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+    background-color: #2ecc71;
+    cursor: pointer; }
+  .formwrapper .large-input img {
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    left: 15px;
+    bottom: 5px; }
+  .formwrapper .grid25 {
+    width: 25%; }
+  .formwrapper .grid50 {
+    width: 50%; }
+  .formwrapper .grid90 {
+    width: 96%; }
+  .formwrapper .border-right {
+    border-right: 1px solid #dedede; }
+  .formwrapper .float-left {
+    float: left; }
+  .formwrapper .large-input:hover {
+    background-color: #f8f8f8; }
+  .formwrapper label {
+    text-transform: uppercase; }
+  .formwrapper .searchfield {
+    border: none;
+    background: none;
+    color: #303030;
+    font-size: 13pt;
+    display: block;
+    margin-bottom: 20px;
+    outline: none; }
+  .formwrapper [placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.2s 0.2s ease;
+    opacity: 0; }
+  .formwrapper input[type="checkbox"], .formwrapper input[type="radio"] {
+    display: none; }
+  .formwrapper .addinfos {
+    display: block;
+    height: 31px;
+    color: #888; }
+  .formwrapper .wrapper-dropdown-2 {
+    /* Size and position */
+    position: relative;
+    /* Enable absolute positioning for children and pseudo elements */
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    /* Styles */
+    background: #fff;
+    border-left: 5px solid #dedede;
+    cursor: pointer;
+    outline: none; }
+  .formwrapper .wrapper-dropdown-2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #dedede transparent; }
+  .formwrapper .wrapper-dropdown-2 .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    right: 0px;
+    /* Styles */
+    background: white;
+    transition: all 0.3s ease-out;
+    list-style: none;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-left: 5px solid;
+    padding: 10px;
+    transition: all 0.3s ease-out; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(1) a {
+    border-left-color: #00ACED; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(2) a {
+    border-left-color: #4183C4; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(3) a {
+    border-left-color: #3B5998; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle; }
+  .formwrapper .wrapper-dropdown-2 .dropdown li:hover a {
+    color: #dedede; }
+  .formwrapper .wrapper-dropdown-2.active:after {
+    border-width: 0 6px 6px 6px; }
+  .formwrapper .wrapper-dropdown-2.active .dropdown {
+    opacity: 1;
+    pointer-events: auto; }
