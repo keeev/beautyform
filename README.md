@@ -23,6 +23,7 @@ Do so, feel free to contribute to it, open issues or just help in any way to get
 ###Credits
 * [Lovely](https://livelovely.com/) for their UI/behaviour
 * lots of Dribbble shots with similar UI
+
 =======
 
 ###Install
@@ -30,4 +31,4 @@ Do so, feel free to contribute to it, open issues or just help in any way to get
  
  	$ bower install
  	
->
+
