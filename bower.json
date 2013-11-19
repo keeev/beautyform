@@ -1,0 +1,19 @@
+{
+  "name": "beautyform",
+  "version": "1.0.0",
+  "homepage": "https://github.com/keeev/beautyform",
+  "description": "a soon to be little bootstrap for beautiful forms for a good UX.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.2"
+  }
+}

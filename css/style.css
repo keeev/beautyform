@@ -1,4 +1,3 @@
-@import url(bootstrap.min.css);
 .clear {
   clear: both; }
 
@@ -23,7 +22,7 @@
   background-color: #2ecc71; }
 
 body {
-  background-image: url(/beautyform/img/bg1.jpg); }
+  background-image: url(../img/bg1.jpg); }
 
 .formwrapper {
   background-color: #fff;
