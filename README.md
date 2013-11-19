@@ -19,3 +19,9 @@ Do so, feel free to contribute to it, open issues or just help in any way to get
 * Refactor JS Stuff (especially the "Additional Infos" checkboxes)
 * resize Background Image
 
+
+###Install
+ Since all Vendors (jQuery, Bootstrap) are linked via bower (http://bower.io/), you need to install bower and install all vendors with it:
+ 
+ 	$ bower install
+ 	
