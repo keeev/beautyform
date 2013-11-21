@@ -1,3 +1,12 @@
+/*
+
+just input your value as $duration
+	
+	.transition{ 
+		@include transition (27s);
+	}
+
+*/
 .clear {
   clear: both; }
 
@@ -14,11 +23,11 @@
   border-right: 1px solid #dedede; }
 
 .checkedbg {
-  -webkit-transition: 0.8s linear all;
-  -moz-transition: 0.8s linear all;
-  -ms-transition: 0.8s linear all;
-  -o-transition: 0.8s linear all;
-  transition: 0.8s linear all;
+  -webkit-transition: 8s linear all;
+  -moz-transition: 8s linear all;
+  -ms-transition: 8s linear all;
+  -o-transition: 8s linear all;
+  transition: 8s linear all;
   background-color: #2ecc71; }
 
 body {
@@ -31,9 +40,7 @@ body {
   top: 200px;
   border-radius: 5px;
   width: 500px;
-  margin: 0 auto;
-  /*dropdown*/
-  /* Hover state */ }
+  margin: 0 auto; }
   .formwrapper .large-input {
     height: 100%;
     width: 100%;
@@ -45,11 +52,11 @@ body {
     box-sizing: border-box;
     /*border: none;*/
     color: #444444;
-    -webkit-transition: 0.3s linear all;
-    -moz-transition: 0.3s linear all;
-    -ms-transition: 0.3s linear all;
-    -o-transition: 0.3s linear all;
-    transition: 0.3s linear all; }
+    -webkit-transition: 3s linear all;
+    -moz-transition: 3s linear all;
+    -ms-transition: 3s linear all;
+    -o-transition: 3s linear all;
+    transition: 3s linear all; }
   .formwrapper .button-success {
     background-color: green;
     padding-top: 10px;
@@ -60,11 +67,11 @@ body {
     text-align: center;
     font-size: 12pt; }
   .formwrapper .button-success:hover {
-    -webkit-transition: 0.3s linear all;
-    -moz-transition: 0.3s linear all;
-    -ms-transition: 0.3s linear all;
-    -o-transition: 0.3s linear all;
-    transition: 0.3s linear all;
+    -webkit-transition: 3s linear all;
+    -moz-transition: 3s linear all;
+    -ms-transition: 3s linear all;
+    -o-transition: 3s linear all;
+    transition: 3s linear all;
     background-color: #2ecc71;
     cursor: pointer; }
   .formwrapper .large-input img {
@@ -104,63 +111,3 @@ body {
     display: block;
     height: 31px;
     color: #888; }
-  .formwrapper .wrapper-dropdown-2 {
-    /* Size and position */
-    position: relative;
-    /* Enable absolute positioning for children and pseudo elements */
-    width: 200px;
-    margin: 0 auto;
-    padding: 10px 15px;
-    /* Styles */
-    background: #fff;
-    border-left: 5px solid #dedede;
-    cursor: pointer;
-    outline: none; }
-  .formwrapper .wrapper-dropdown-2:after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    right: 16px;
-    top: 50%;
-    margin-top: -3px;
-    border-width: 6px 6px 0 6px;
-    border-style: solid;
-    border-color: #dedede transparent; }
-  .formwrapper .wrapper-dropdown-2 .dropdown {
-    /* Size & position */
-    position: absolute;
-    top: 100%;
-    left: -5px;
-    right: 0px;
-    /* Styles */
-    background: white;
-    transition: all 0.3s ease-out;
-    list-style: none;
-    /* Hiding */
-    opacity: 0;
-    pointer-events: none; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    border-left: 5px solid;
-    padding: 10px;
-    transition: all 0.3s ease-out; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(1) a {
-    border-left-color: #00ACED; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(2) a {
-    border-left-color: #4183C4; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li:nth-child(3) a {
-    border-left-color: #3B5998; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li i {
-    margin-right: 5px;
-    color: inherit;
-    vertical-align: middle; }
-  .formwrapper .wrapper-dropdown-2 .dropdown li:hover a {
-    color: #dedede; }
-  .formwrapper .wrapper-dropdown-2.active:after {
-    border-width: 0 6px 6px 6px; }
-  .formwrapper .wrapper-dropdown-2.active .dropdown {
-    opacity: 1;
-    pointer-events: auto; }
