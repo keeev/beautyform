@@ -1,0 +1,26 @@
+{
+  "name": "beautyform",
+  "version": "0.0.2",
+  "description": "a soon to be little bootstrap for beautiful forms",
+  "author": "Kevin Niedermayr",
+  "bin": {
+    "module-name": "./bin/module-name"
+  },
+  "scripts": {},
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keeev/beautyform"
+  },
+  "bugs": {
+    "url": "https://github.com/keeev/beautyform/issues"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "license": "MIT"
+}

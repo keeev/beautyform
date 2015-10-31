@@ -1,14 +1,5 @@
-/*
-
-just input your value as $duration
-	
-	.transition{ 
-		@include transition (27s);
-	}
-
-*/
 .clear {
-  clear: both; }
+  clear: left; }
 
 .border-bottom {
   border-bottom: 1px solid #dedede; }
@@ -31,7 +22,8 @@ just input your value as $duration
   background-color: #2ecc71; }
 
 body {
-  background-image: url(../img/bg1.jpg); }
+  background-image: url(../img/bg1.jpg);
+  font-family: "Open Sans", sans-serif; }
 
 .formwrapper {
   background-color: #fff;

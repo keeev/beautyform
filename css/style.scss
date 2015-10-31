@@ -1,30 +1,13 @@
-
-
-/*
-
-just input your value as $duration
-	
-	.transition{ 
-		@include transition (27s);
-	}
-
-*/
-@mixin transition ($duration) {
-		-webkit-transition: $duration linear all;
-		-moz-transition: $duration linear all;
-		-ms-transition: $duration linear all;
-		-o-transition: $duration linear all;
-		transition: $duration linear all;
-}
+@import 'mixins';
 
 .clear {
-	clear:both;
+	clear:left;
 }
 
 .border-bottom {
 	border-bottom: 1px solid #dedede;
 }
-	
+
 .border-top {
 	border-top: 1px solid #dedede;
 }
@@ -44,7 +27,9 @@ just input your value as $duration
 
 body {
 	background-image: url(../img/bg1.jpg);
+	font-family: "Open Sans", sans-serif;
 }
+
 .formwrapper {
 	background-color: #fff;
 	height: auto;
@@ -53,7 +38,7 @@ body {
 	border-radius: 5px;
 	width: 500px;
 	margin: 0 auto;
-	
+
 	.large-input {
 		height: 100%;
 		width: 100%;
@@ -63,7 +48,7 @@ body {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		/*border: none;*/ 
+		/*border: none;*/
 		color: #444444;
 		@include transition(3s)
 	}
@@ -84,7 +69,7 @@ body {
 		background-color: #2ecc71;
 		cursor: pointer;
 	}
-	
+
 	.large-input img {
 		width: 50px;
 		margin: 0 auto;
@@ -92,7 +77,7 @@ body {
 		left: 15px;
 		bottom: 5px;
 	}
-	
+
 	.grid25 {
 		width: 25%;
 	}
@@ -109,7 +94,7 @@ body {
 
 	.border-right {
 		border-right: 1px solid #dedede;
-		
+
 	}
 
 	.float-left {
@@ -134,11 +119,11 @@ body {
 	}
 
 		[placeholder]:focus::-webkit-input-placeholder {
-		  transition: opacity 0.2s 0.2s ease; 
+		  transition: opacity 0.2s 0.2s ease;
 		  opacity: 0;
 		}
 
-	
+
 	input[type="checkbox"], input[type="radio"] {
 		display: none;
 	}
